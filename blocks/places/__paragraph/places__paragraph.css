@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: inherit;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 29px;
 }
 
 .places__main-text .places__paragraph:nth-of-type(n+2) {

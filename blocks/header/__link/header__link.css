@@ -7,7 +7,7 @@
     line-height: 28px;
     text-decoration: none;
     border-bottom: 1px solid white;
-    transition: opacity .4s;
+    transition: opacity .3s;
 }
 
 .header__language-switch :nth-of-type(n+2) {    
@@ -16,5 +16,5 @@
 } 
 
 .header__link:hover {
-    opacity: 0.6;
+    opacity: 0.8;
 }

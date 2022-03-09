@@ -1,8 +1,7 @@
-.header {
+.footer__row-links {
     margin: 0;
-    padding: 0 48px 56px;
+    padding: 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
