@@ -1,0 +1,9 @@
+.lead__main-illustration {
+    margin: 0 0 8px;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../../../images/lead-polka.jpg");
+    background-size: cover;
+    width: 984px;
+    height: 615px;
+}

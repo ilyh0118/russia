@@ -1,0 +1,10 @@
+.photo-grid {
+    margin: 0 48px;
+    padding: 0 0 92px;
+    box-sizing: border-box;
+    background-color: silver;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 284px);
+    grid-template-rows: repeat(3, 213px);
+}
