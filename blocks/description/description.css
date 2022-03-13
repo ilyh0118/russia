@@ -1,7 +1,28 @@
 .description {
-    margin: 0 442px 0 148px;
-    padding: 0 0 92px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
+    margin: 0 auto;
+    padding: 0  0 92px 148px;
+    box-sizing: border-box;    
+    width: 100%;
+    max-width: 1280px;
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+    .description {
+        padding-left: 48px;
+        max-width: 1024px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .description {
+        padding-left: 24px;
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .description {
+        padding-left: 16px;
+        max-width: 320px;
+    }
 }
