@@ -1,5 +1,5 @@
 .footer {
-    padding: 92px 48px 24px;
+    padding: 92px 48px 16px;
     margin: 0;
     box-sizing: border-box;
     display: flex;
@@ -7,6 +7,18 @@
     justify-content: space-between;
     background-color: inherit;
     width: 100%;
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+    .footer {
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .footer {
+        padding: 88px 24px 24px;
+    }
 }
 
 @media screen and (max-width: 767px) {
